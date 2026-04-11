@@ -63,6 +63,22 @@ Description: Hello World HTTP service
  Exposes / and /health endpoints on port 8080.
 
 Package: hello-world
+Version: 0.0.0-a9d803b
+Architecture: amd64
+Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
+Depends: systemd
+Filename: pool/main/hello-world_0.0.0-a9d803b_amd64.deb
+Size: 1775446
+MD5sum: 379b144989dedc8e9d3e2b77028d03e7
+SHA1: 1990e999c8b46abe919f7caa544a812b732ee4ce
+SHA256: d434b9a1946c1d73c16adba7d84bbbbac987b61d63680dbb4e7688240d267b7a
+Section: utils
+Priority: optional
+Description: Hello World HTTP service
+ A simple HTTP service that responds with Hello World.
+ Exposes / and /health endpoints on port 8080.
+
+Package: hello-world
 Version: 0.0.0-f5d1d3c
 Architecture: amd64
 Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
