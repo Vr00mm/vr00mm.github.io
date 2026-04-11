@@ -1,13 +1,43 @@
 apiVersion: v1
 entries:
+  hello-world:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-04-11T06:32:58.8581738Z"
+    description: A simple Hello World HTTP service
+    digest: 2ea1376838182dbfb4905a08bcd15935e5651a736cdba9c487971af344467075
+    maintainers:
+    - name: Vr00mm
+      url: https://github.com/Vr00mm
+    name: hello-world
+    type: application
+    urls:
+    - https://vr00mm.github.io/hello-world-0.0.0-4385e16.tgz
+    version: 0.0.0-4385e16
   litmus:
   - apiVersion: v1
-    appVersion: "2.0.0"
-    created: 2021-09-15T17:10:15+02:00
-    description: A Helm chart for litmus
+    appVersion: 2.0.0
+    created: "2026-04-11T06:32:58.859167957Z"
+    description: A Helm chart to install ChaosCenter
     digest: dd48619aadc8110f1f0d03b5a54063f5af08afd74d1faa221b4c4dc5cf32a058
+    home: https://litmuschaos.io
+    icon: https://raw.githubusercontent.com/litmuschaos/icons/master/litmus.png
+    keywords:
+    - chaos-engineering
+    - resiliency
+    - kubernetes
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: raj.das@mayadata.io
+      name: rajdas98
+    - email: shubham.chaudhary@mayadata.io
+      name: ispeakc0de
+    - email: jasssstkn@yahoo.com
+      name: jasstkn
     name: litmus
+    sources:
+    - https://github.com/litmuschaos/litmus
     urls:
-    - litmus-2.0.0.tgz
+    - https://vr00mm.github.io/litmus-2.0.0.tgz
     version: 2.0.0
-generated: 2021-09-15T17:10:15+02:00
+generated: "2026-04-11T06:32:58.857757503Z"
