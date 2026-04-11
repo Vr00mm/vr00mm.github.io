@@ -3,7 +3,20 @@ entries:
   hello-world:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-11T07:39:44.221055615Z"
+    created: "2026-04-11T08:57:05.392985489Z"
+    description: A simple Hello World HTTP service
+    digest: 26fb8fb6e0264d83c2b01166ce784effbc74c000b0e8f82a7b19067f3cbd4766
+    maintainers:
+    - name: Vr00mm
+      url: https://github.com/Vr00mm
+    name: hello-world
+    type: application
+    urls:
+    - https://vr00mm.github.io/charts/hello-world-0.0.0-f7c5979.tgz
+    version: 0.0.0-f7c5979
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-04-11T08:57:05.392730825Z"
     description: A simple Hello World HTTP service
     digest: b96085d5a314b3acc779baf18083c4145c238cdb8c0bc76b331d8f2b3ceb640f
     maintainers:
@@ -16,7 +29,7 @@ entries:
     version: 0.0.0-f5d1d3c
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-11T07:39:44.220822634Z"
+    created: "2026-04-11T08:57:05.392524511Z"
     description: A simple Hello World HTTP service
     digest: cec43300d3c1be52f90b3f33a78c3c69e11cf99e0eec7f2bb3e61901304745e0
     maintainers:
@@ -29,7 +42,7 @@ entries:
     version: 0.0.0-4b6ffb3
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-11T07:39:44.220597355Z"
+    created: "2026-04-11T08:57:05.39231246Z"
     description: A simple Hello World HTTP service
     digest: ef645939127ae01a3979fc13250fb22af31dd74aeed333140cff7769aea99a33
     maintainers:
@@ -42,7 +55,7 @@ entries:
     version: 0.0.0-0faec2d
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-04-11T07:39:44.220262671Z"
+    created: "2026-04-11T08:57:05.392094119Z"
     description: A simple Hello World HTTP service
     digest: a9ebf3c093b6f41af33c28526ed59e4c6fe0886cdb112ae2dd542c8bf47a6834
     maintainers:
@@ -53,4 +66,4 @@ entries:
     urls:
     - https://vr00mm.github.io/charts/hello-world-0.0.0-022c947.tgz
     version: 0.0.0-022c947
-generated: "2026-04-11T07:39:44.219888488Z"
+generated: "2026-04-11T08:57:05.391651348Z"
