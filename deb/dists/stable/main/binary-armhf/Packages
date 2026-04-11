@@ -11,6 +11,32 @@ Description: Dynamic IP authoritative DNS server
  Resolves hostnames to IPs encoded directly in the subdomain label.
  Supports A, AAAA, NS, SOA, TXT record types over UDP and TCP.
 
+Package: dynip-dns
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Vr00mm
+Filename: pool/main/dynip-dns_0.0.1_amd64.deb
+Size: 802694
+MD5sum: 09cb0d28cd00eae58d1c5717940731fe
+SHA1: 1b89eceb642688b8eb932a4875efb08d893a4f34
+SHA256: a07fdcd2647f6a7fa1f37224a12a7f14ed60700a39f30bcbcd81d4a32de3496f
+Description: Dynamic IP authoritative DNS server
+ Resolves hostnames to IPs encoded directly in the subdomain label.
+ Supports A, AAAA, NS, SOA, TXT record types over UDP and TCP.
+
+Package: dynip-dns
+Version: 1.0.0
+Architecture: armhf
+Maintainer: Vr00mm
+Filename: pool/main/dynip-dns_1.0.0_armhf.deb
+Size: 743720
+MD5sum: b632cecf030f15628013ce81e7aa0f9d
+SHA1: c7577e2ae56134ec125025e841a6067af2e6a040
+SHA256: c46565f95148740db465e8e44a26afb9ab1f86f3569fe6b906053f26045fe88d
+Description: Dynamic IP authoritative DNS server
+ Resolves hostnames to IPs encoded directly in the subdomain label.
+ Supports A, AAAA, NS, SOA, TXT record types over UDP and TCP.
+
 Package: hello-world
 Version: 0.0.0-022c947
 Architecture: amd64
