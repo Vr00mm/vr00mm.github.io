@@ -2,23 +2,31 @@ Origin: Vr00mm
 Label: vr00mm.github.io
 Suite: stable
 Codename: stable
-Architectures: amd64
+Architectures: armhf
 Components: main
 Description: vr00mm.github.io APT Repository
-Date: Sat, 11 Apr 2026 09:52:55 +0000
+Date: Sat, 11 Apr 2026 14:35:29 +0000
 MD5Sum:
- ff510a0b8c39d57da42e726613481921              191 Release
+ 813037c8f051cb38e5d83762a68efcb0              191 Release
  1852ea2fd06bea16682170bc1ae911dc             4860 main/binary-amd64/Packages
  c1ae84926001b4ae270c7ee26ed99498             1262 main/binary-amd64/Packages.gz
+ 37db47bef2fa35ac1309352f72e495f0             5334 main/binary-armhf/Packages
+ 450328f6bf2d7f5e38cf9165a59be2c9             1524 main/binary-armhf/Packages.gz
 SHA1:
- e6380abb8a48855849582096198cc9191aa3f976              191 Release
+ 2e81d10bdb0ca3df3838921b3127a07784b759da              191 Release
  57673190505f06305b6f5bbc1ef2cb03b0c9f62e             4860 main/binary-amd64/Packages
  0b56b75e8fc2b0dc54cbcbc67976f62cbfc38bce             1262 main/binary-amd64/Packages.gz
+ 6d6922c8ee198263a906e1df973dc505a0c3fe67             5334 main/binary-armhf/Packages
+ b1210419b1f2190f7c649f58f60a525d509aedcb             1524 main/binary-armhf/Packages.gz
 SHA256:
- 9e9b41a285bcbad961fe5d160f3c449334d20d1e8dc470da334587f5588ee812              191 Release
+ 5c43bccf9ff25c20259b729ed2ded727073161c2a9df3a2e96764b2beaf1d73b              191 Release
  ff674c932da31df0c3675ed6176596eaf89e26d7d579e1c43941687bd0eaae7e             4860 main/binary-amd64/Packages
  89a08b64f691e9ee4b93325dc4b3ee8ba84c87acd365063c68f75a8952fe0cd0             1262 main/binary-amd64/Packages.gz
+ e021d8359d00cf17d67eb0f96127744a142870cd6f02fbe6831700235f3bf13f             5334 main/binary-armhf/Packages
+ c6cc3c5db1d77525baca3bf45d8ede3a3d5eb00490e2af4291bf2ca533d03499             1524 main/binary-armhf/Packages.gz
 SHA512:
- 925f47a4951ac218fba769828b867832822b980d14af5db8a46294215002988d99c6620640cfac4a6163b752fb610fd7b01fe819cacc45a0fc306cc8aa79f135              191 Release
+ 5fb6dcf81096820eab610716282371fa64061f6c531469cfe3cea90040220b8b9fb67f15785880ab8111341e6262ca8544a1036b1767bd8ca5ffff0a3bbb4c30              191 Release
  545b597ae86da6aaa137bf20677d623e874c2ff35da7a17cbd2af08ac48e656afa85ea79f3724ef9d9bd7148985c23799e6e154a332be1ae0307c2b63f8ab4bc             4860 main/binary-amd64/Packages
  5f9eb695770f63510d0f18f0df5a55c0bf34c84de0a0cec2080d5e19a35e4e8454035e5c7302a288d8b537e2e731348d536cf2fa1f388b172d1ed120a559a057             1262 main/binary-amd64/Packages.gz
+ 41ddf7a72ffd079f5929be2a36f07402b3fbc207ede81ab7e0b47870c86409b5bd9ba2f20d5b51a650cb98b99551f599f373ad34ea55e42c310ebe87ab5c7652             5334 main/binary-armhf/Packages
+ c15d9fa7a11ea7b9a87e37fdbda3de4861ba1f24bc0c0bfe522195d385640f8c277254e5b3ecd0d8aa86499358625a7d699939201204c3a23b605b700fc02bdd             1524 main/binary-armhf/Packages.gz
