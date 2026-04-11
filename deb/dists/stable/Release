@@ -1,0 +1,24 @@
+Origin: Vr00mm
+Label: vr00mm.github.io
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: vr00mm.github.io APT Repository
+Date: Sat, 11 Apr 2026 06:32:54 +0000
+MD5Sum:
+ 5bd920d9f603ba5522536feb5af6644e              191 Release
+ 7331a0f0a3e307ae568d286ebf326248              540 main/binary-amd64/Packages
+ 63e0b35116927c7133b6dacbad17e45e              403 main/binary-amd64/Packages.gz
+SHA1:
+ ef82f9581f2a46464e1fff4fc2d7e24e06fcd733              191 Release
+ 7d507154f6a08d45f96a1ef070a73cb24c5025c0              540 main/binary-amd64/Packages
+ 08d8c59c7731657aa5f85af8ebdb60f4817a75cd              403 main/binary-amd64/Packages.gz
+SHA256:
+ ccc8e5a4f5c65ddd2d2223cf400f2b27cc40eacce2d89a5915e4e8ce7e0ace8d              191 Release
+ 16e49650ddff004eefda3d0092c8b15d88310e8029c684fb51ebb3b9fce3f5d2              540 main/binary-amd64/Packages
+ 00e660d005de0ba90304042e65b322deb253016e81a61a88094ece085e86de86              403 main/binary-amd64/Packages.gz
+SHA512:
+ ffac6f2ba2d81f5d1d763f6ac328c95ef122fb0fe343f686a053b11c01d9d38361aa2293d1f9fd80791ebabf9c8731c580f1de3ec04f2d337f335cbb4993203d              191 Release
+ 2376d9a141abeb1e5badba96b42c444498ae7faa83682aef012670e31708c4f8cd71337d700d80b79fc16c15756a99c3b62d6fc5f1c0451047dfe54597bd1893              540 main/binary-amd64/Packages
+ 8eb3e38843c1f3248846ea4ac99cc84d349b8cb7e4ccdc3605c686df2ec80a59cfffc514922a12541463631e6eb42392a9e02ae91576ce597bad7eeda60ff44e              403 main/binary-amd64/Packages.gz
