@@ -29,10 +29,10 @@ Version: 1.0.0
 Architecture: armhf
 Maintainer: Vr00mm
 Filename: pool/main/dynip-dns_1.0.0_armhf.deb
-Size: 743720
-MD5sum: b632cecf030f15628013ce81e7aa0f9d
-SHA1: c7577e2ae56134ec125025e841a6067af2e6a040
-SHA256: c46565f95148740db465e8e44a26afb9ab1f86f3569fe6b906053f26045fe88d
+Size: 743746
+MD5sum: e2e27ebd14753c07a53a0532d328d2c7
+SHA1: 28aa9d188574b7c124686ddae0b270cff0df9213
+SHA256: 97fe6f0cea36cd87b6588b0e2b903a980d629a71808a2267d07d99d37e0f4661
 Description: Dynamic IP authoritative DNS server
  Resolves hostnames to IPs encoded directly in the subdomain label.
  Supports A, AAAA, NS, SOA, TXT record types over UDP and TCP.
