@@ -1,12 +1,12 @@
 Package: hello-world
-Version: 0.0.0-0c020ac
+Version: 0.0.0-8eafa87
 Architecture: all
 Maintainer: Your Name <you@example.com>
 Filename: pool/main/hello-world.deb
 Size: 634
-MD5sum: 95f2d6b0fee6820db6205af1a2363510
-SHA1: 6dda4f074b1b4c63ca0e0965664b2f25a51148e3
-SHA256: a6242cf3f9039dcd4791ca94989d7724cc991b3ebe6c8e873dd70b8524595df5
+MD5sum: 2bf83d17c5f67111dd7e7a7ecd88ff1a
+SHA1: d0a4f9461581dbb57d3a15161b39693651c5b82f
+SHA256: 41080127106400a26f5dc8c1987e9366efdb93f4c443e2a32513bc7beff8dde3
 Description: Hello World example package
  A minimal Debian package example used to demonstrate deb-publish.
  Installs a single script at /usr/bin/hello-world.
