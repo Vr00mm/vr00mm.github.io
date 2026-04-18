@@ -1,4 +1,17 @@
 Package: hello-world
+Version: 0.0.0-3c4f7ea
+Architecture: all
+Maintainer: Your Name <you@example.com>
+Filename: pool/main/hello-world.deb
+Size: 636
+MD5sum: bbe6cd3365693b58106096f6c6bb6275
+SHA1: 9eb58d2a7925812556c4d5a4f7fd32989b957586
+SHA256: 3f22cd595906c67f1f44c9d75ccdc7063cc811bdecb31c2b03505b19d9ce7274
+Description: Hello World example package
+ A minimal Debian package example used to demonstrate deb-publish.
+ Installs a single script at /usr/bin/hello-world.
+
+Package: hello-world
 Version: 0.0.0-c0f6fc8
 Architecture: amd64
 Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
@@ -13,17 +26,4 @@ Priority: optional
 Description: Hello World HTTP service
  A simple HTTP service that responds with Hello World.
  Exposes / and /health endpoints on port 8080.
-
-Package: hello-world
-Version: 0.0.0-c46b1df
-Architecture: all
-Maintainer: Your Name <you@example.com>
-Filename: pool/main/hello-world.deb
-Size: 642
-MD5sum: d6ee9d7f3241c36773fa249bd022e7d8
-SHA1: c764037be05ca99b7fc7e641c339681c03b24102
-SHA256: 9c8fb2b788b744fe96bce7cd30ed54ddcfc49c59fcebb4d6482cee2d86537fae
-Description: Hello World example package
- A minimal Debian package example used to demonstrate deb-publish.
- Installs a single script at /usr/bin/hello-world.
 
