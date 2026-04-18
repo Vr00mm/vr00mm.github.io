@@ -369,9 +369,30 @@ runs:
         echo "pages-run-id=$PAGES_RUN_ID" >> "$GITHUB_OUTPUT"
         echo "📋 Pages run: https://github.com/$PAGES_REPO/actions/runs/$PAGES_RUN_ID"
 
-        GH_TOKEN="$TOKEN" gh run watch "$PAGES_RUN_ID" \
+        echo "⏳ Waiting for pages workflow to complete..."
+        while true; do
+          CONCLUSION=$(GH_TOKEN="$TOKEN" gh run view "$PAGES_RUN_ID" \
+            --repo "$PAGES_REPO" \
+            --json status,conclusion \
+            --jq 'if .status == "completed" then .conclusion else empty end')
+          [ -n "$CONCLUSION" ] && break
+          sleep 5
+        done
+
+        echo ""
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        GH_TOKEN="$TOKEN" gh run view "$PAGES_RUN_ID" \
           --repo "$PAGES_REPO" \
-          --exit-status
+          --log 2>&1 || true
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        echo ""
+
+        case "$CONCLUSION" in
+          success)   echo "✅ Pages workflow completed successfully" ;;
+          failure)   echo "❌ Pages workflow failed"    ; exit 1 ;;
+          cancelled) echo "⚠️  Pages workflow was cancelled" ; exit 1 ;;
+          *)         echo "⚠️  Pages workflow ended: $CONCLUSION" ; exit 1 ;;
+        esac
 
     # ══════════════════════════════════════════════════════════════════════════
     # PUBLISH — receive side (pages repo, triggered by repository_dispatch)
