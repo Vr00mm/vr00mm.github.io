@@ -867,7 +867,7 @@ runs:
           echo "✓ Regenerated Packages for arch: $arch"
         done
 
-        cd "$BASE/dists/$DIST"
+        cd "dists/$DIST"
         {
           echo "Origin: ${GITHUB_REPOSITORY_OWNER}"
           echo "Label: ${GITHUB_REPOSITORY##*/}"
