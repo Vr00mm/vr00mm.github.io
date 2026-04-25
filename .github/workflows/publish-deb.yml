@@ -17,10 +17,10 @@ jobs:
 
     steps:
       - name: Publish to APT repository
-        uses: Vr00mm/deb-publish@1f0bb9eb631c260beb266c879a4bd2604e5ba8a0
+        uses: Vr00mm/deb-publish@v2
 
       - name: Sign APT repository
-        uses: Vr00mm/deb-publish@1f0bb9eb631c260beb266c879a4bd2604e5ba8a0
+        uses: Vr00mm/deb-publish@v2
         with:
           mode: sign
           distribution: ${{ github.event.client_payload.distribution }}
