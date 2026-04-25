@@ -1,0 +1,169 @@
+Package: hello-world
+Version: 0.0.0-5e6f613
+Architecture: amd64
+Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
+Depends: systemd
+Filename: pool/main/hello-world_0.0.0-5e6f613_amd64.deb
+Size: 2023218
+MD5sum: 8d0f1eba8fe9eb44abbce8d7864cc16d
+SHA1: f54f68998d535eb978241dbeb57f36f67ed6784d
+SHA256: 3d289c5acd5d28d9c1cf5e3a215f7f4adcc090b65ebddebb499bc272a3b583f9
+Section: utils
+Priority: optional
+Description: Hello World HTTP service
+ A simple HTTP service that responds with Hello World.
+ Exposes / and /health endpoints on port 8080.
+
+Package: hello-world
+Version: 0.0.0-62cb125
+Architecture: amd64
+Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
+Depends: systemd
+Filename: pool/main/hello-world_0.0.0-62cb125_amd64.deb
+Size: 2023720
+MD5sum: 12ad969b4daa5fe3e0c86cb64856fd43
+SHA1: a33c717f4f12098d64545598991c10650360ad07
+SHA256: 3568590ad578e1cdc08bac5db8afa36f19c75869baefd7f6014db6b6ca0d900c
+Section: utils
+Priority: optional
+Description: Hello World HTTP service
+ A simple HTTP service that responds with Hello World.
+ Exposes / and /health endpoints on port 8080.
+
+Package: hello-world
+Version: 0.0.0-7721dca
+Architecture: amd64
+Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
+Depends: systemd
+Filename: pool/main/hello-world_0.0.0-7721dca_amd64.deb
+Size: 2023246
+MD5sum: 4784e8bdcb0422b94c1c72980bef1402
+SHA1: b02e715cfa857f96adce8c96b1c340365f8c260e
+SHA256: 8412cd3a5a4b9b49537cbfb7a89745816f9735bb076e299a933c53a17daa889b
+Section: utils
+Priority: optional
+Description: Hello World HTTP service
+ A simple HTTP service that responds with Hello World.
+ Exposes / and /health endpoints on port 8080.
+
+Package: hello-world
+Version: 0.0.0-77ba23c
+Architecture: amd64
+Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
+Depends: systemd
+Filename: pool/main/hello-world_0.0.0-77ba23c_amd64.deb
+Size: 2023328
+MD5sum: 68b9efb8f2f505034e2b5cded79ca015
+SHA1: 7e36caaa430a1efe6a4dad31b488acda99588c3f
+SHA256: a19d0df57311024f9dc32a10b19744f47ab7eb9b65b907833e844e551bfc933f
+Section: utils
+Priority: optional
+Description: Hello World HTTP service
+ A simple HTTP service that responds with Hello World.
+ Exposes / and /health endpoints on port 8080.
+
+Package: hello-world
+Version: 0.0.0-be7defe
+Architecture: amd64
+Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
+Depends: systemd
+Filename: pool/main/hello-world_0.0.0-be7defe_amd64.deb
+Size: 2023354
+MD5sum: bf18f737d587d8c6b2c284b83e06028c
+SHA1: c4a87a800c76eeb24b36ab147655a19f03c6a12b
+SHA256: 6d3a8c7920df8489750625f70c723587d556ad8e4fc6818b45da672ce864f32c
+Section: utils
+Priority: optional
+Description: Hello World HTTP service
+ A simple HTTP service that responds with Hello World.
+ Exposes / and /health endpoints on port 8080.
+
+Package: hello-world
+Version: 0.0.0-c0f6fc8
+Architecture: amd64
+Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
+Depends: systemd
+Filename: pool/main/hello-world_0.0.0-c0f6fc8_amd64.deb
+Size: 1775588
+MD5sum: 535f110adcafd804dbc29ac926a6c790
+SHA1: 9c5591b112ada8e251cae322c3e15bdd997c3495
+SHA256: ab1252115a72cfb1faa545ea677ae44b128437f16c33a5a898734747d023e2c1
+Section: utils
+Priority: optional
+Description: Hello World HTTP service
+ A simple HTTP service that responds with Hello World.
+ Exposes / and /health endpoints on port 8080.
+
+Package: hello-world
+Version: 0.0.0-c5c8152
+Architecture: amd64
+Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
+Depends: systemd
+Filename: pool/main/hello-world_0.0.0-c5c8152_amd64.deb
+Size: 2023316
+MD5sum: 54fe1fed0ae947a11066646e13628ee3
+SHA1: 3bb20b49adc05e5ae117f20bebce31ef948a7f6b
+SHA256: 70a35b6f4c2ee78ad6269ed26be865aecd95a30e2ba6728e30aa0fb2cf5afad1
+Section: utils
+Priority: optional
+Description: Hello World HTTP service
+ A simple HTTP service that responds with Hello World.
+ Exposes / and /health endpoints on port 8080.
+
+Package: hello-world
+Version: 0.0.0-e511bfa
+Architecture: amd64
+Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
+Depends: systemd
+Filename: pool/main/hello-world_0.0.0-e511bfa_amd64.deb
+Size: 2023344
+MD5sum: 1d6728cfe95146e28ef2109c2bb26e1a
+SHA1: 4e73711a6615b5cf6d742f3eaa2c09d1beabd787
+SHA256: 4c94af0cb9ed9204f2b7bda607cb9f82a3bd853a76e3c0a0980b5915aab8a71c
+Section: utils
+Priority: optional
+Description: Hello World HTTP service
+ A simple HTTP service that responds with Hello World.
+ Exposes / and /health endpoints on port 8080.
+
+Package: hello-world
+Version: 0.0.0-fbf2b92
+Architecture: all
+Maintainer: Your Name <you@example.com>
+Filename: pool/main/hello-world.deb
+Size: 636
+MD5sum: 2f229738ec01b46b26f82d531fd6ca23
+SHA1: d1d4d705f15fcd9d5ab40ab1bc12ad739c7453bb
+SHA256: e5fbf5e7fa687ea88bc748bc653382c264b6fdab155840350391ba0fe50a5b78
+Description: Hello World example package
+ A minimal Debian package example used to demonstrate deb-publish.
+ Installs a single script at /usr/bin/hello-world.
+
+Package: ssh-over-tls
+Version: 1.1.0
+Architecture: amd64
+Maintainer: Rémi ZIOLKOWSKI <remi.ziolkowski@gmail.com>
+Filename: pool/main/ssh-over-tls_1.1.0_amd64.deb
+Size: 2034940
+MD5sum: e77708998295e00b47b39137c169aa11
+SHA1: dc7b4556c72f930733eeea2327cef025448d049a
+SHA256: ba86d85af0dc1d35d1a10894b615f0f6684744cf9308db4135149566e1daa965
+Section: net
+Priority: optional
+Homepage: https://github.com/Vr00mm/ssh-over-tls
+Description: TLS multiplexer that routes SSH and HTTP to separate backends on a single port.
+
+Package: ssh-over-tls
+Version: 1.1.0
+Architecture: arm64
+Maintainer: Rémi ZIOLKOWSKI <remi.ziolkowski@gmail.com>
+Filename: pool/main/ssh-over-tls_1.1.0_arm64.deb
+Size: 1805962
+MD5sum: e4fe92652410dc6fa28d194d07392d0f
+SHA1: 5a62a674f456b956933543b09816edadcecee9bd
+SHA256: d382ec5b0fde6909073904fbd0f39060436cdd5568d4d1ba737a5c74cf968abe
+Section: net
+Priority: optional
+Homepage: https://github.com/Vr00mm/ssh-over-tls
+Description: TLS multiplexer that routes SSH and HTTP to separate backends on a single port.
+
