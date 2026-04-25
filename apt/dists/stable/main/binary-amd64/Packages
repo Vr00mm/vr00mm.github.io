@@ -107,3 +107,17 @@ Description: Hello World HTTP service
  A simple HTTP service that responds with Hello World.
  Exposes / and /health endpoints on port 8080.
 
+Package: ssh-over-tls
+Version: 1.1.0
+Architecture: amd64
+Maintainer: Rémi ZIOLKOWSKI <remi.ziolkowski@gmail.com>
+Filename: pool/main/ssh-over-tls_1.1.0_amd64.deb
+Size: 2034866
+MD5sum: 62d5ccea81409e1e4e4b2ae6d3eb0a04
+SHA1: 1db4f1e587dcb0d26cedce9b8842a3983364de8f
+SHA256: fba4f149bb921405646fece91dd6170da5526bdea40e2deb5dda5547065144cc
+Section: net
+Priority: optional
+Homepage: https://github.com/Vr00mm/ssh-over-tls
+Description: TLS multiplexer that routes SSH and HTTP to separate backends on a single port.
+
