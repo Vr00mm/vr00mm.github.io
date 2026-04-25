@@ -1,17 +1,4 @@
 Package: hello-world
-Version: 0.0.0-1f0bb9e
-Architecture: all
-Maintainer: Your Name <you@example.com>
-Filename: pool/main/hello-world.deb
-Size: 636
-MD5sum: 24bb7b6b6e2ca7d24e3a5f558d4ec1ba
-SHA1: fc30f0b7a98e51cf7d44f1cd5d2b5508f4103641
-SHA256: d17a6277a7187f46f9f4fa3e46803e4a996898b90816da49f52c965378edb922
-Description: Hello World example package
- A minimal Debian package example used to demonstrate deb-publish.
- Installs a single script at /usr/bin/hello-world.
-
-Package: hello-world
 Version: 0.0.0-5e6f613
 Architecture: amd64
 Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
@@ -21,6 +8,22 @@ Size: 2023218
 MD5sum: 8d0f1eba8fe9eb44abbce8d7864cc16d
 SHA1: f54f68998d535eb978241dbeb57f36f67ed6784d
 SHA256: 3d289c5acd5d28d9c1cf5e3a215f7f4adcc090b65ebddebb499bc272a3b583f9
+Section: utils
+Priority: optional
+Description: Hello World HTTP service
+ A simple HTTP service that responds with Hello World.
+ Exposes / and /health endpoints on port 8080.
+
+Package: hello-world
+Version: 0.0.0-62cb125
+Architecture: amd64
+Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
+Depends: systemd
+Filename: pool/main/hello-world_0.0.0-62cb125_amd64.deb
+Size: 2023720
+MD5sum: 12ad969b4daa5fe3e0c86cb64856fd43
+SHA1: a33c717f4f12098d64545598991c10650360ad07
+SHA256: 3568590ad578e1cdc08bac5db8afa36f19c75869baefd7f6014db6b6ca0d900c
 Section: utils
 Priority: optional
 Description: Hello World HTTP service
@@ -90,4 +93,31 @@ Priority: optional
 Description: Hello World HTTP service
  A simple HTTP service that responds with Hello World.
  Exposes / and /health endpoints on port 8080.
+
+Package: hello-world
+Version: 0.0.0-fbf2b92
+Architecture: all
+Maintainer: Your Name <you@example.com>
+Filename: pool/main/hello-world.deb
+Size: 636
+MD5sum: b681d2a8d0d93917cd9905fdacc99076
+SHA1: 592373712890e10c54b313f8929b9eb4e65aa8a5
+SHA256: 0fb8be3ae29c671d04691ae087341ff8b5cb93b052ed6db0be363691da3cd5a0
+Description: Hello World example package
+ A minimal Debian package example used to demonstrate deb-publish.
+ Installs a single script at /usr/bin/hello-world.
+
+Package: ssh-over-tls
+Version: 1.1.0
+Architecture: amd64
+Maintainer: Rémi ZIOLKOWSKI <remi.ziolkowski@gmail.com>
+Filename: pool/main/ssh-over-tls_1.1.0_amd64.deb
+Size: 2034866
+MD5sum: 62d5ccea81409e1e4e4b2ae6d3eb0a04
+SHA1: 1db4f1e587dcb0d26cedce9b8842a3983364de8f
+SHA256: fba4f149bb921405646fece91dd6170da5526bdea40e2deb5dda5547065144cc
+Section: net
+Priority: optional
+Homepage: https://github.com/Vr00mm/ssh-over-tls
+Description: TLS multiplexer that routes SSH and HTTP to separate backends on a single port.
 
