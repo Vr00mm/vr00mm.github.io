@@ -1,17 +1,4 @@
 Package: hello-world
-Version: 0.0.0-1f0bb9e
-Architecture: all
-Maintainer: Your Name <you@example.com>
-Filename: pool/main/hello-world.deb
-Size: 636
-MD5sum: 24bb7b6b6e2ca7d24e3a5f558d4ec1ba
-SHA1: fc30f0b7a98e51cf7d44f1cd5d2b5508f4103641
-SHA256: d17a6277a7187f46f9f4fa3e46803e4a996898b90816da49f52c965378edb922
-Description: Hello World example package
- A minimal Debian package example used to demonstrate deb-publish.
- Installs a single script at /usr/bin/hello-world.
-
-Package: hello-world
 Version: 0.0.0-5e6f613
 Architecture: amd64
 Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
@@ -76,6 +63,22 @@ Description: Hello World HTTP service
  Exposes / and /health endpoints on port 8080.
 
 Package: hello-world
+Version: 0.0.0-be7defe
+Architecture: amd64
+Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
+Depends: systemd
+Filename: pool/main/hello-world_0.0.0-be7defe_amd64.deb
+Size: 2023354
+MD5sum: bf18f737d587d8c6b2c284b83e06028c
+SHA1: c4a87a800c76eeb24b36ab147655a19f03c6a12b
+SHA256: 6d3a8c7920df8489750625f70c723587d556ad8e4fc6818b45da672ce864f32c
+Section: utils
+Priority: optional
+Description: Hello World HTTP service
+ A simple HTTP service that responds with Hello World.
+ Exposes / and /health endpoints on port 8080.
+
+Package: hello-world
 Version: 0.0.0-c0f6fc8
 Architecture: amd64
 Maintainer: Vr00mm <vr00mm@users.noreply.github.com>
@@ -106,6 +109,19 @@ Priority: optional
 Description: Hello World HTTP service
  A simple HTTP service that responds with Hello World.
  Exposes / and /health endpoints on port 8080.
+
+Package: hello-world
+Version: 0.0.0-fbf2b92
+Architecture: all
+Maintainer: Your Name <you@example.com>
+Filename: pool/main/hello-world.deb
+Size: 636
+MD5sum: b681d2a8d0d93917cd9905fdacc99076
+SHA1: 592373712890e10c54b313f8929b9eb4e65aa8a5
+SHA256: 0fb8be3ae29c671d04691ae087341ff8b5cb93b052ed6db0be363691da3cd5a0
+Description: Hello World example package
+ A minimal Debian package example used to demonstrate deb-publish.
+ Installs a single script at /usr/bin/hello-world.
 
 Package: ssh-over-tls
 Version: 1.1.0
