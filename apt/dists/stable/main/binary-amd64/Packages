@@ -144,10 +144,10 @@ Version: 1.1.0
 Architecture: amd64
 Maintainer: Rémi ZIOLKOWSKI <remi.ziolkowski@gmail.com>
 Filename: pool/main/ssh-over-tls_1.1.0_amd64.deb
-Size: 2034866
-MD5sum: 62d5ccea81409e1e4e4b2ae6d3eb0a04
-SHA1: 1db4f1e587dcb0d26cedce9b8842a3983364de8f
-SHA256: fba4f149bb921405646fece91dd6170da5526bdea40e2deb5dda5547065144cc
+Size: 2034940
+MD5sum: e77708998295e00b47b39137c169aa11
+SHA1: dc7b4556c72f930733eeea2327cef025448d049a
+SHA256: ba86d85af0dc1d35d1a10894b615f0f6684744cf9308db4135149566e1daa965
 Section: net
 Priority: optional
 Homepage: https://github.com/Vr00mm/ssh-over-tls
