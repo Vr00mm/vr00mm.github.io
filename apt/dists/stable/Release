@@ -2,31 +2,31 @@ Origin: Vr00mm
 Label: vr00mm.github.io
 Suite: stable
 Codename: stable
-Architectures: all
+Architectures: amd64
 Components: main
 Description: APT Repository
-Date: Sat, 25 Apr 2026 13:47:04 +0000
+Date: Sat, 25 Apr 2026 13:48:24 +0000
 MD5Sum:
- 0262a2a8f1fef5bcbaab2db8cbb0b154              172 Release
+ 70814a02a65bb63a624cd73890a86b92              174 Release
  84aa17ec7f6a504318552a94913ac39e             4762 main/binary-all/Packages
  fce1f2540981024eac787ef882e779de             1519 main/binary-all/Packages.gz
- ace457a409e45e9ca661cf37fbc7e3f6             4762 main/binary-amd64/Packages
- b0c32a11a00cc9fa9638c863a6ac086e             1514 main/binary-amd64/Packages.gz
+ 117095cded8fedc7311bafc968a0d51c             5302 main/binary-amd64/Packages
+ 8b51bb23f44a460170decda8960a9293             1625 main/binary-amd64/Packages.gz
 SHA1:
- 3cd5dc500a36b51da2f3ac21f8d3d9c0d6063c97              172 Release
+ 48e6936a9bd17989d8277affeb89e72ea341bacd              174 Release
  2a8edb26dc2660e565c722e2a66a1abe694c0893             4762 main/binary-all/Packages
  5f020bd1d858f2553eeb5bac256a9c8e97296928             1519 main/binary-all/Packages.gz
- 018563c0793f11653b56a323afacef4278bfb3a8             4762 main/binary-amd64/Packages
- 274b654ee6f3827a0a2ba9471d0e00fbd19ef85d             1514 main/binary-amd64/Packages.gz
+ 43bcd7884afeabe7bc020c7e51dd9c495f7675db             5302 main/binary-amd64/Packages
+ 7ee418edf88160aa796be4e75aeb0df0e73b3b9d             1625 main/binary-amd64/Packages.gz
 SHA256:
- 1980a1ee4a71a5e8a999bf927165672b362dedfaf9e8c4f7d3d5506ce6b081eb              172 Release
+ a665a5c1dadc489ca5b341dde6f2eeddb64dd9c98801de25fee0722a1633650b              174 Release
  cd5c981fd36fcc8aeaa29386f952e524ee96134a9a8b89373fd425e9e33817d3             4762 main/binary-all/Packages
  0c37b9fa251a1acd3a83472c736278fae1c30af1644f468aab8819fc78a2cbaa             1519 main/binary-all/Packages.gz
- 3c3830cfe46dcf8112410b7ce62ac6e7b99e72469354e25ca7d21a8ab6143ba3             4762 main/binary-amd64/Packages
- c78cca1d05176c328493e8c03a3353d3ec1d879d838ed175295cf7f8f0476ba2             1514 main/binary-amd64/Packages.gz
+ b6a3a713e9e459e6cdbe76066630a358c3fbe3513b66e4bb66c86e412b43f7d8             5302 main/binary-amd64/Packages
+ 7b18e432ed55724e343a8623c9c4855162bddfd2157d236bff2910ed756ff638             1625 main/binary-amd64/Packages.gz
 SHA512:
- c809413d893f6182f6aa879b6884b370a9064de489ae6b49607f940f40bd442023dcfa6491e092b317a698062aa7c521e8ee569765a402bddd5362f374493820              172 Release
+ 3cf87349f817d746f8e9f2353f304630a6c3a2dc64bb41c3a72726f38bdf2cb3bf702833348aa540d0dc3e59de0e3685966fcfd11f9e2d2fe13320d1b384a91a              174 Release
  56298c24c78ddb301b60dd840a8eb617620cb812da6bd42169f98b838d9995dcac748cc4073f92303fc7738c65d2fa56b94c5c2950ad5b1cd4761ea4b98ab878             4762 main/binary-all/Packages
  9abacb5d1965a61eddae9f73f6a6e1b1194afcd76612da8c5f2474394a5a0267d5f1867146c457ab992b7ce7bfa8c40d8c5ec90343cee90a74fdfbf3cef3d852             1519 main/binary-all/Packages.gz
- cc4c47340a936a2879bc55161c56bdf618c16e199c4fecc32ab500d6274528135fe3c6107b83509b0f2907d52aecc56f15f09560a806b8548a20a42a8610ebdb             4762 main/binary-amd64/Packages
- 4fbd2770505a041cde698d38453f2849b8276b3f91aaa3027f6edb606f771ad480ecd4c06f44afb084f905b6f83fcdc2c1605742a3aa0c6f09cbf04060948704             1514 main/binary-amd64/Packages.gz
+ 2f6df31156e301bd79dadac579ea1c3052f059b17b15140970086b40a9787a2ebeaafc729cda696ec5a4d101edae5ca80d71e1da99c8180996865daba66d870e             5302 main/binary-amd64/Packages
+ 6c2638c0236111bedd613054aeba085628fbe6e0cf7ace626cd4a478cb9e2cce95582857a34b4b51444b7889e48539f412fd986b94bb00f4b3a9889d2ae943e7             1625 main/binary-amd64/Packages.gz
